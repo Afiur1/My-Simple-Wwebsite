@@ -14,7 +14,7 @@
 .logo-photo{
     width: 125px;
 }
-.menues{
+.menus{
     display: flex;
 
 }
@@ -26,4 +26,23 @@
 }
 .item:hover{
     color: gold;
+}
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    border: 2px solid grey;
+    background-image: url("./images/background.png"),linear-gradient(45deg,#101010,#464646);
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    
+}
+.banner-text{
+    color: white;
 }
