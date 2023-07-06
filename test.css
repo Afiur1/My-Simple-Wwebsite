@@ -37,6 +37,9 @@
     align-items: center;
     border: 2px solid grey;
     background-image: url("./images/background.png"),linear-gradient(45deg,#101010,#464646);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .title{
     font-size: 55px;
@@ -45,4 +48,19 @@
 }
 .banner-text{
     color: white;
+}
+.description{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.btn{
+    padding: 10px 15px;
+    background-color: indigo;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    color: greenyellow;
+    
 }
